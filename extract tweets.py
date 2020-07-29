@@ -40,4 +40,3 @@ for tweet in tweets:
     val = (tweet.user.name,tweet.text)
     mycursor.execute(sql, val)
     mydb.commit()
-    wr.writerow(tweets)
